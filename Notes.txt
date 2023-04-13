@@ -1,0 +1,21 @@
+View , Text (React Native Components) 
+<View> <-> <div> : uses flexbox layout by default
+<Text> <-> <p>
+<TouchableOpacity> <-> <button> : onPress = {}
+<ActivityIndicator> <-> spinner / loader
+
+Important Components : 
+
+1. Flatlist used to render a long list <-> Map function in react
+-> For larger Lists with smooth scrolling (use Flatlist)
+-> For smaller Lists (use Map function)
+
+2. ScrollView like magic box that can hold multiple components and views , providing a scrolling container for them <-> Overflow : scroll in html
+-> allowing you to easily navigate through a list of items or a large amount of content in our app (Overflow : scroll)
+-> Can make sure that users can easily Explore all the content , making the app more intutive and user-friendly( ScrollView)
+
+3. SafeAreaView : provides a safe zone to render your app's content without being covered by the device's hardware features like the notch , home indicator , or status bar.
+ this ensures that your content is displayed within the visible area ,  making your app more accesible
+
+ 
+

@@ -1,0 +1,25 @@
+1. Go to expo.github.io
+2. Run the Quickstart command with expo-router setup : 
+    For Installing App
+    -> npx create-expo-app@latest --example with-router AppName 
+3. Make a app folder , inside this folder make 2 files : index.js  , _layout.js
+
+    // Building a layout
+    -> first create a layout route in app/_layout.js which uses pre-built Stack component from expo-router to render a native stack navigator
+
+    import {Stack} from "expo-router";
+    export default function Layout(){
+        return <Stack />'
+    }
+
+4. Installing Some Packages for the project : 
+  -> npm install expo-font axios react-native-dotenv
+  expo-font for custom fonts , react-native-dotenv for handling environment variables
+
+5. Run Application :
+    -> npm start
+    -> install expo go Application
+    -> npm install -g expo-cli // installed globally the expo cli , used for running the expo Application
+    -> npx expo-cli start --tunnel
+    -> scan the Qr code 
+    
